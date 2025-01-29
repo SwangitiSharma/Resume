@@ -1,0 +1,64 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  font-size: 0.9em;
+}
+
+th {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+td {
+  color: #444;
+}
+
+ h2 {
+  font-size: 1.8em;
+  color: #333;
+  border-bottom: 2px solid #333 !important;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+.App{
+  margin:40px;
+}
+/* App.css */
+
+/* Style for the download button */
+.download-button {
+  background-color: #0073e6;  /* Blue color */
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.download-button:hover {
+  background-color: #005bb5; /* Darker blue */
+}
+
+.page-break {
+  page-break-before: always;
+}
+
+/* Optional: Improve margin spacing */
+.page-margin {
+  margin-bottom: 30mm; /* This ensures that there's space between sections */
+}
+.experience-section, .education-section {
+  page-break-inside: avoid;
+}

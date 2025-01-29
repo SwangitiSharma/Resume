@@ -1,0 +1,61 @@
+/* src/components/Header.css */
+.resume-header {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #333;
+  }
+  
+  .header-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-left {
+    margin-right: 20px;
+  }
+  
+  .profile-image {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1.5px solid #007bff;
+  }
+  
+  .header-right {
+    flex: 1;
+  }
+  
+  .resume-header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .resume-header .subtitle {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .resume-header .contact-info {
+    font-size: 0.9em;
+    color: #444;
+  }
+  
+  .resume-header .contact-info p {
+    margin: 5px 0;
+  }
+  
+  .resume-header .email-link,
+  .resume-header .phone-link,
+  .resume-header .address-link {
+    color: #007bff; /* Blue color for the link */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .resume-header .email-link:hover,
+  .resume-header .phone-link:hover,
+  .resume-header .address-link:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }

@@ -1,0 +1,18 @@
+/* src/components/About.css */
+.resume-section {
+    margin-bottom: 30px;
+  }
+  
+  .resume-section h2 {
+    font-size: 1.8em;
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .resume-section .summary-text {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #444;
+  }

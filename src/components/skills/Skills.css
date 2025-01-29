@@ -1,0 +1,29 @@
+/* src/components/Skills.css */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .skills-grid ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .skills-grid li {
+    background: #f9f9f9;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 0.9em;
+    color: #444;
+  }
+  .resume-section h2 {
+    font-size: 1.8em;
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+  }
